@@ -1,0 +1,50 @@
+<div th:fragment="footer">
+    <div class="footer-dark">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a th:href="@{/footer/api}">API</a></li>
+                            <li><a th:href="@{/footer/pharmacy}">Pharmacy</a></li>
+                            <li><a th:href="@{/footer/emergency}">Emergency Care</a></li>
+                            <li><a th:href="@{/footer/nursing}">Nursing</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>About</h3>
+                        <ul>
+                            <li><a th:href="@{/Home/home-page}">Patient Management</a></li>
+                            <li><a th:href="@{/footer/team}">Our Team</a></li>
+                            <li><a th:href="@{/footer/career}">Careers</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 item text">
+                        <h3>Patient Management</h3>
+                        <p>Currently, hospitals are largely staffed by professional physicians, surgeons, nurses, and
+                            allied health practitioners, whereas in the past, this work was usually performed by the
+                            members of founding religious orders or by volunteers</p>
+                    </div>
+                    <div class="col item social">
+                        <a href="https://www.facebook.com/">
+                            <i class="icon ion-social-facebook"></i>
+                        </a>
+                        <a href="https://www.twitter.com/">
+                            <i class="icon ion-social-twitter"></i>
+                        </a>
+                        <a href="https://www.snapchat.com/">
+                            <i class="icon ion-social-snapchat"></i>
+                        </a>
+                        <a href="https://www.instagram.com/">
+                            <i class="icon ion-social-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <p class="copyright">Patient Management © 2024</p>
+            </div>
+        </footer>
+    </div>
+</div>
+<script src="/Footer/js/jquery.min.js"></script>
+<script src="/Footer/bootstrap/js/bootstrap.min.js"></script>
